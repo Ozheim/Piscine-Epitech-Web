@@ -8,6 +8,4 @@ function dog_bark(int $woof_nb){
     }
     echo "\n";
 }
-
-
 ?> 
