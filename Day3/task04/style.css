@@ -1,0 +1,60 @@
+@media screen and  (min-width:1024px) {
+    body {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        background-color: blue;
+        height: 11vh;
+        min-height: 100px;
+  
+
+    }
+
+    .nav {
+        width: 100%;
+        background-color: green;
+        height: 23vh;
+    }
+
+    .container-section {
+        display: flex;
+        display: 100%;
+        gap: 2%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    article {
+        background-color: yellow;
+        width: 32%;
+        height: 20vh;
+        margin-bottom: 1%;
+        gap: 2%;
+    
+    }
+
+    article:nth-child(n+3):nth-child(-n+4) {
+        background-color: #9013FE;
+    }
+    
+    article:nth-child(n+5):nth-child(-n+6) {
+        background-color: pink;
+    }
+
+    .footer {
+        width: 100%;
+        background-color: red;
+        height: 13vh;
+        btnho#e55335
+        #ff6347
+    
+    }
+}

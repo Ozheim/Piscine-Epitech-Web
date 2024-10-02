@@ -1,0 +1,50 @@
+@media screen and (max-width: 767px) {
+    body {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: blue;
+        height: 11vh;
+        min-height: 100px;
+
+    }
+
+    .nav {
+        width: 100%;
+        background-color: green;
+        height: 23vh;
+
+
+
+    }
+
+    .first-section {
+        width: 100%;
+        background-color: yellow;
+        height: 25vh;
+
+
+    }
+
+    .second-section {
+        width: 100%;
+        background-color: yellow;
+        height: 25vh;
+
+
+    }
+
+    .footer {
+        width: 100%;
+        background-color: red;
+        height: 10vh;
+    }
+}
+
+

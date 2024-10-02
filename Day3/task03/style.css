@@ -1,0 +1,58 @@
+@media screen and (min-width: 767px)and (max-width:1024px){
+        body {
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+            }
+        
+            .header {
+                display: flex;
+                flex-direction: column;
+                width: 50%;
+                background-color: blue;
+                height: 11vh;
+                min-height: 100px;
+        
+            }
+        
+            .nav {
+                width: 100%;
+                background-color: green;
+                height: 23vh;
+        
+        
+        
+            }
+        
+            .container-section {
+                display: flex;
+                display: 100%;
+                gap: 15px;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+        
+            }
+        
+            article {
+                background-color: yellow;
+                width: 48%;
+                height: 20vh;
+            }
+        
+            article:nth-child(n+5):nth-child(-n+8) {
+                background-color: #9013FE;
+            }
+        
+        
+        
+        
+            .footer {
+                width: 100%;
+                background-color: red;
+                height: 10vh;
+                margin-top: 20px;
+            }
+        }
+
+
